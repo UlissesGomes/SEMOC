@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nero.semoc.DetalheMinicurso">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#B22222"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:text="MINICURSO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/nomeminicursodetalhe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#B22222"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:text="LOCAL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/localminicursodetalhe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#B22222"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:text="DATA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/dataminicursodetalhe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#B22222"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:text="HORÁRIO"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/horaminicursodetalhe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#B22222"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:text="PROFESSOR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/professorminicursodetalhe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#B22222"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:text="CARGA HORÁRIA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textAlignment="center"
+                android:id="@+id/cargaminicursodetalhe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
